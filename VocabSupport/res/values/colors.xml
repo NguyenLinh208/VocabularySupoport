@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#dbb387</color>
+    <color name="title_background">@drawable/titlebackground</color>
+    <color name="word_dialog_title_background">@drawable/titlebackground</color>
+    <color name="list_row_start_color">#dbb387</color>
+    <color name="list_row_end_color">#c09c75</color>
+    <color name="attention_color">#a40000</color>
+    <color name="skip_button_start_color">#904e07</color>
+    <color name="skip_button_end_color">#5d3202</color>
+
+    <color name="button_start_color">#b49261</color>
+    <color name="button_end_color">#493c2b</color>
+    <color name="button_stroke_color">#412e14</color>
+    <color name="button_pressed_start_color">#ff7e1a</color>
+    <color name="button_pressed_end_color">#8a4308</color>
+    <color name="button_text_color">#f1f1f1</color>
+
+    <color name="list_row_start_colorc">#f0c699</color>
+    <color name="word_dialog_title_backgroundb">#e7bb8b</color>
+    <color name="list_row_start_colorb">#e1ac74</color>
+    <color name="list_row_end_colorb">#cf9b63</color>
+    <color name="title_backgroundb">#b0875e</color>
+    <color name="button_pressed_start_colorb">#435c75</color>
+    <color name="button_pressed_end_colorb">#171a32</color>
+    <color name="button_stroke_colorb">#2f210e</color>
+</resources>

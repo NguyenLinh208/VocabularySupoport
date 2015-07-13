@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_background" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text="@string/title_activity_main"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <Button
+	            android:id="@+id/learning_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/learning_mode"
+	            android:textColor="@color/button_text_color" />
+	        <Button
+	            android:id="@+id/revise_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/learning_intent_button"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/revise_mode"
+	            android:textColor="@color/button_text_color" />
+
+	        <Button
+	            android:id="@+id/register_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/revise_intent_button"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/register_mode"
+	            android:textColor="@color/button_text_color" />
+
+	        <Button
+	            android:id="@+id/check_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/register_intent_button"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/check_mode"
+	            android:textColor="@color/button_text_color" />
+	       <Button
+	            android:id="@+id/notebook_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/check_intent_button"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/notebook_mode"
+	            android:textColor="@color/button_text_color" />
+	        <Button
+	            android:id="@+id/menu_intent_button"
+	            android:layout_width="140dip"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@id/notebook_intent_button"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="32dp"
+	            android:background="@drawable/button"
+	            android:text="@string/menu_settings"
+	            android:textColor="@color/button_text_color" />
+
+
+	    </RelativeLayout>
+	</ScrollView>
+
+</LinearLayout>

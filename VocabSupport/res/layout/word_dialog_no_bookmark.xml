@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dip"
+    android:layout_marginLeft="10dip" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/word_dialog_title_background" >
+
+	    <ImageView
+	        android:id="@+id/note_button"
+	        android:src="@drawable/note_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="5dip"
+	        android:background="@null"
+	        android:contentDescription="@string/note_desc"
+	        android:visibility="invisible" />
+	    
+	    <TextView
+	        android:id="@+id/word_dialog_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/note_button"
+	        android:padding="5dip"
+	        android:textSize="@dimen/large" />
+	</RelativeLayout>
+
+    <TextView
+        android:id="@+id/word_dialog_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:paddingRight="8dip"
+        android:paddingLeft="8dip"
+        android:background="@color/app_background" />
+
+    <TextView
+        android:id="@+id/word_dialog_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_dialog_line1"
+        android:paddingBottom="4dip"
+        android:paddingRight="8dip"
+        android:paddingLeft="8dip"
+        android:background="@color/app_background"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/word_dialog_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/word_dialog_line2"
+        android:paddingBottom="10dip"
+        android:paddingLeft="8dip"
+        android:background="@color/app_background"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="learning_mode_items">
+        <item>@string/learning_q3_mode</item>
+        <item>@string/learning_q4_mode</item>
+        <item>@string/learning_hide_mode</item>
+    </string-array>
+    <string-array name="learning_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="revise_mode_items">
+        <item>@string/not_all</item>
+        <item>@string/all</item>
+    </string-array>
+    <string-array name="revise_mode_values">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="result_pop_time_items">
+        <item>0.2 sec</item>
+        <item>0.4 sec</item>
+        <item>0.6 sec</item>
+        <item>0.8 sec</item>
+        <item>1.0 sec</item>
+    </string-array>
+    <string-array name="result_pop_time_values">
+        <item>200</item>
+        <item>400</item>
+        <item>600</item>
+        <item>800</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="speech_loc_items">
+        <item>@string/lang_us</item>
+        <item>@string/lang_english</item>
+        <item>@string/lang_french</item>
+        <item>@string/lang_german</item>
+        <item>@string/lang_italian</item>
+    </string-array>
+    <string-array name="speech_loc_values">
+        <item>US</item>
+        <item>ENGLISH</item>
+        <item>FRENCH</item>
+        <item>GERMAN</item>
+        <item>ITALIAN</item>
+    </string-array>
+    <string-array name="speech_pitch_items">
+        <item>@string/low</item>
+        <item>@string/standard</item>
+        <item>@string/high</item>
+    </string-array>
+    <string-array name="speech_pitch_values">
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+    </string-array>
+
+    <string-array name="speech_rate_items">
+        <item>@string/slow</item>
+        <item>@string/slightly_slow</item>
+        <item>@string/standard</item>
+        <item>@string/slightly_fast</item>
+        <item>@string/fast</item>
+    </string-array>
+    <string-array name="speech_rate_values">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+</resources>

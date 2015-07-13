@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:title="@string/learning_setting_title"
+        android:summary="@string/learning_setting_summary" >
+        <PreferenceCategory
+	        android:title="@string/learning_mode_setting_title">
+	        <ListPreference
+	            android:key="key_learning_mode"
+	            android:title="@string/learning_mode_choice_title"
+	            android:summary="@string/learning_mode_choice_summary"
+	            android:entries="@array/learning_mode_items"
+	            android:entryValues="@array/learning_mode_values" />
+	        <EditTextPreference
+	            android:key="key_learning_num"
+	            android:title="@string/new_words_num"
+	            android:inputType="number"
+	            android:maxLength="2" />
+	        <ListPreference
+	            android:key="key_revise_mode"
+	            android:title="@string/revise_mode_choice_title"
+	            android:summary="@string/revise_mode_choice_summary"
+	            android:entries="@array/revise_mode_items"
+	            android:entryValues="@array/revise_mode_values" />
+	        <EditTextPreference
+	            android:key="key_revise_max"
+	            android:title="@string/rev_words_max"
+	            android:inputType="number"
+	            android:maxLength="3" />
+        </PreferenceCategory>
+        <PreferenceCategory
+	        android:title="@string/learning_general_setting_title">
+	        <ListPreference
+	            android:key="key_result_pop_time"
+	            android:title="@string/res_pop_title"
+	            android:entries="@array/result_pop_time_items"
+	            android:entryValues="@array/result_pop_time_values" />
+	        <Preference
+	            android:key="key_learning_data_clear"
+	            android:title="@string/del_learning_data_title"
+	            android:summary="@string/del_learning_data_summary" />
+	    </PreferenceCategory>
+    </PreferenceScreen>
+     <PreferenceScreen
+        android:title="@string/db_setting_title"
+        android:summary="@string/db_setting_summary" >
+        <PreferenceCategory
+	        android:title="@string/db_setting_title">
+	        <Preference
+	            android:key="key_db_create"
+	            android:title="@string/db_create_title"
+	            android:summary="@string/db_create_summary" />
+	        <ListPreference
+	            android:key="key_db_using"
+	            android:title="@string/db_change_title" />
+	        <Preference
+	            android:key="key_db_delete"
+	            android:title="@string/db_delete_title"
+	            android:summary="@string/db_delete_summary" />
+	    </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/words_setting_title"
+        android:summary="@string/words_setting_summary" >
+        <PreferenceCategory
+	        android:title="@string/words_setting_title">
+	        <EditTextPreference
+	            android:key="key_word_spell"
+	            android:title="@string/spell" />
+	        <EditTextPreference
+	            android:key="key_word_meaning"
+	            android:title="@string/meaning" />
+	        <EditTextPreference
+	            android:key="key_word_part"
+	            android:title="@string/part" />
+	        <EditTextPreference
+	            android:key="key_word_example_en"
+	            android:title="@string/example_en" />
+	        <EditTextPreference
+	            android:key="key_word_example_ja"
+	            android:title="@string/example_ja" />
+	        <EditTextPreference
+	            android:key="key_word_category"
+	            android:title="@string/category" />
+	        <Preference
+	            android:key="key_word_set_default"
+	            android:title="@string/words_set_default" />
+	    </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/sound_setting_title"
+        android:summary="@string/sound_setting_summary" >
+        <PreferenceCategory
+	        android:title="@string/sound_setting_title" >
+	        <CheckBoxPreference
+	            android:key="key_sound_use"
+	            android:title="@string/sound_use_title"
+	            android:summaryOn="@string/sound_use_summary_on"
+	            android:summaryOff="@string/sound_use_summary_off"
+	            android:defaultValue="true" />
+	        <CheckBoxPreference
+	            android:key="key_tts_use"
+	            android:title="@string/tts_use_title"
+	            android:summaryOn="@string/tts_use_summary_on"
+	            android:summaryOff="@string/tts_use_summary_off"
+	            android:defaultValue="true" />
+	        <ListPreference
+	            android:key="key_speech_locale"
+	            android:title="@string/tts_locale_title"
+	            android:entries="@array/speech_loc_items"
+	            android:entryValues="@array/speech_loc_values" />
+	        <ListPreference
+	            android:key="key_speech_rate"
+	            android:title="@string/tts_rate_title"
+	            android:entries="@array/speech_rate_items"
+	            android:entryValues="@array/speech_rate_values" />
+	        <ListPreference
+	            android:key="key_speech_pitch"
+	            android:title="@string/tts_pitch_title"
+	            android:entries="@array/speech_pitch_items"
+	            android:entryValues="@array/speech_pitch_values" />
+	        <Preference
+	            android:key="key_tts_install"
+	            android:title="@string/tts_install_title" />
+	    </PreferenceCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen>
